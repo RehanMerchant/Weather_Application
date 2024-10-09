@@ -11,224 +11,224 @@ import { IoCompass } from "react-icons/io5";
 import { TbUvIndex } from "react-icons/tb";
 import { useEffect, useState } from "react";
 
-
+/*
 const codeObj = [
   {
 		"code" : 1000,
-    "image":'./assets/clear.png'
+    "image":'https://i.postimg.cc/YSp2gcYG/clear.png'
 	},
 	{
 		"code" : 1003,
-    "image":'./assets/cloud1.png'
+    "image":'https://i.postimg.cc/w4hnsgyt/cloud1.png'
 	},
 	{
 		"code" : 1006,
-	  "image":'./assets/cloud1.png'
+	  "image":'https://i.postimg.cc/w4hnsgyt/cloud1.png'
 	},
 	{
 		"code" : 1009,
-    "image":'./assets/overcast.png'
+    "image":'https://i.postimg.cc/pq4wzk7b/overcast.png'
 	},
 	{
 		"code" : 1030,
-		  "image":'./assets/mist.png'
+		  "image":'https://i.postimg.cc/dvdckq29/mist.png'
 	},
 	{
 		"code" : 1063,
-"image":'./assets/rain1.jpg'
+"image":'https://i.postimg.cc/sdmckj94/rain1.jpg'
 	},
 	{
 		"code" : 1066,
-	"image":'./assets/snow.png'
+	"image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1069,
-    "image":'./assets/bli.png'
+    "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1072,
-	"image":'./assets/snow2.png'
+	"image":'https://i.postimg.cc/rmgy6bkt/snow2.png'
 	},
 	{
 		"code" : 1087,
- "image":'./assets/thunder.png'
+ "image":'https://i.ibb.co/0qlb7dv/thunder.png'
 	},
 	{
 		"code" : 1114,
-	"image":'./assets/snow.png'
+	"image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1117,
-"image":'./assets/bli.png'
+"image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1135,
-	 "image":'./assets/mist.png'
+	 "image":'https://i.postimg.cc/dvdckq29/mist.png'
 	},
 	{
 		"code" : 1147,
- "image":'./assets/mist.png'
+ "image":'https://i.postimg.cc/dvdckq29/mist.png'
 	},
 	{
 		"code" : 1150,
-	"image":'./assets/bli.png'
+	"image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1153,
-"image":'./assets/bli.png'
+"image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1168,
-"image":'./assets/bli.png'
+"image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1171,
-"image":'./assets/bli.png'
+"image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1180,
-		"image":'./assets/rain1.jpg'
+		"image":'https://i.postimg.cc/sdmckj94/rain1.jpg'
 	},
 	{
 		"code" : 1183,
-"image":'./assets/rain1.jpg'
+"image":'https://i.postimg.cc/sdmckj94/rain1.jpg'
 	},
 	{
 		"code" : 1186,
-"image":'./assets/rain2.png'
+"image":'https://i.postimg.cc/ffjt12fx/rain2.png'
 	},
 	{
 		"code" : 1189,
-"image":'./assets/rain2.png'
+"image":'https://i.postimg.cc/ffjt12fx/rain2.png'
 	},
 	{
 		"code" : 1192,
-"image":'./assets/rain2.png'
+"image":'https://i.postimg.cc/ffjt12fx/rain2.png'
 	},
 	{
 		"code" : 1195,
-"image":'./assets/rain2.png'
+"image":'https://i.postimg.cc/ffjt12fx/rain2.png'
 	},
 	{
 		"code" : 1198,
- "image":'./assets/thunder.png'
+ "image":'https://i.ibb.co/0qlb7dv/thunder.png'
 	},
 	{
 		"code" : 1201,
- "image":'./assets/thunder.png'
+ "image":'https://i.ibb.co/0qlb7dv/thunder.png'
 	},
 	{
 		"code" : 1204,
- "image":'./assets/bli.png'
+ "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1207,
- "image":'./assets/snow2.png'
+ "image":'https://i.postimg.cc/rmgy6bkt/snow2.png'
 	},
 	{
 		"code" : 1210,
- "image":'./assets/snow.png'
+ "image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1213,
- "image":'./assets/snow.png'
+ "image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1216,
- "image":'./assets/snow.png'
+ "image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1219,
- "image":'./assets/snow2.png'
+ "image":'https://i.postimg.cc/rmgy6bkt/snow2.png'
 	},
 	{
 		"code" : 1222,
- "image":'./assets/snow2.png'
+ "image":'https://i.postimg.cc/rmgy6bkt/snow2.png'
 	},
 	{
 		"code" : 1225,
- "image":'./assets/snow2.png'
+ "image":'https://i.postimg.cc/rmgy6bkt/snow2.png'
 	},
 	{
 		"code" : 1237,
- "image":'./assets/bil.jpg'
+ "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1240,
- "image":'./assets/rain1.jpg'
+ "image":'https://i.postimg.cc/sdmckj94/rain1.jpg'
 	},
 	{
 		"code" : 1243,
- "image":'./assets/rain2.png'
+ "image":'https://i.postimg.cc/ffjt12fx/rain2.png'
 	},
 	{
 		"code" : 1246,
- "image":'./assets/rain2.png'
+ "image":'https://i.postimg.cc/ffjt12fx/rain2.png'
 	},
 	{
 		"code" : 1249,
- "image":'./assets/bli.png'
+ "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1252,
- "image":'./assets/bli.png'
+ "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1255,
- "image":'./assets/snow.png'
+ "image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1258,
- "image":'./assets/snow2.png'
+ "image":'https://i.postimg.cc/rmgy6bkt/snow2.png'
 	},
 	{
 		"code" : 1261,
- "image":'./assets/bil.png'
+ "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1264,
- "image":'./assets/bil.png'
+ "image":'https://i.imghippo.com/files/wcolo1728477660.jpg '
 	},
 	{
 		"code" : 1273,
- "image":'./assets/thunder.png'
+ "image":'https://i.ibb.co/0qlb7dv/thunder.png'
 	},
 	{
 		"code" : 1276,
- "image":'./assets/thunder.png'
+ "image":'https://i.postimg.cc/Jh5bRWcp/thunder.png'
 	},
 	{
 		"code" : 1279,
- "image":'./assets/snow.png'
+ "image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	},
 	{
 		"code" : 1282,
- "image":'./assets/snow.png'
+ "image":'https://i.postimg.cc/d3yptn0s/snow.png'
 	}
 
 ]
-
+*/
 
 
 
 
 const TodaysSection = (props) => {
-  const [bg, setBg] = useState(null)
+ // const [bg, setBg] = useState(null)
   const TodayData = props.data
-  const code = TodayData.code || 1000
-  console.log(code)
+ // const code = TodayData.code || 1000
+ // console.log(code)
 
-function getBg(code){
-    setBg(codeObj.find(pin => pin.code === code).image)
-}
+//function getBg(code){
+ //   setBg(codeObj.find(pin => pin.code === code).image)
+//}
 
-useEffect(() => {
-  getBg(code);
- }, [bg,TodayData]);
+//useEffect(() => {
+ // getBg(code);
+ //}, [bg,TodayData]);
   return (
     <div className="w-full p-4">
     <div className="md:flex w-full gap-4 h-auto ">
-    <div style={{ backgroundImage: `url(${bg})` }}   className={`md:w-[25%] bg-cover flex h-full rounded-lg` }>
+    <div  className={`md:w-[25%] bg-neutral-900 bg-cover flex h-full rounded-lg` }>
       <div className="bg-black bg-opacity-20 w-full">
 
    
