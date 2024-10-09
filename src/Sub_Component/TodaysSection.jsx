@@ -228,7 +228,7 @@ useEffect(() => {
   return (
     <div className="w-full p-4">
     <div className="md:flex w-full gap-4 h-auto ">
-    <div  style={{'--image-url': `url(${bg})`}}   className={`md:w-[25%] bg-cover bg-[image:var(--image-url)] flex h-full rounded-lg` }>
+    <div style={{ backgroundImage: `url(${bg})` }}   className={`md:w-[25%] bg-cover flex h-full rounded-lg` }>
       <div className="bg-black bg-opacity-20 w-full">
 
    
