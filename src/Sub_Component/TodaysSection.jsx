@@ -15,195 +15,195 @@ import { useEffect, useState } from "react";
 const codeObj = [
   {
 		"code" : 1000,
-    "image":'./src/assets/clear.png'
+    "image":'/assets/clear.png'
 	},
 	{
 		"code" : 1003,
-    "image":'./src/assets/cloud1.png'
+    "image":'/assets/cloud1.png'
 	},
 	{
 		"code" : 1006,
-	  "image":'./src/assets/cloud1.png'
+	  "image":'/assets/cloud1.png'
 	},
 	{
 		"code" : 1009,
-    "image":'./src/assets/overcast.png'
+    "image":'/assets/overcast.png'
 	},
 	{
 		"code" : 1030,
-		  "image":'./src/assets/mist.png'
+		  "image":'/assets/mist.png'
 	},
 	{
 		"code" : 1063,
-"image":'./src/assets/rain1.jpg'
+"image":'/assets/rain1.jpg'
 	},
 	{
 		"code" : 1066,
-	"image":'./src/assets/snow.png'
+	"image":'/assets/snow.png'
 	},
 	{
 		"code" : 1069,
-    "image":'./src/assets/bli.png'
+    "image":'/assets/bli.png'
 	},
 	{
 		"code" : 1072,
-	"image":'./src/assets/snow2.png'
+	"image":'/assets/snow2.png'
 	},
 	{
 		"code" : 1087,
- "image":'./src/assets/thunder.png'
+ "image":'/assets/thunder.png'
 	},
 	{
 		"code" : 1114,
-	"image":'./src/assets/snow.png'
+	"image":'/assets/snow.png'
 	},
 	{
 		"code" : 1117,
-"image":'./src/assets/bli.png'
+"image":'/assets/bli.png'
 	},
 	{
 		"code" : 1135,
-	 "image":'./src/assets/mist.png'
+	 "image":'/assets/mist.png'
 	},
 	{
 		"code" : 1147,
- "image":'./src/assets/mist.png'
+ "image":'/assets/mist.png'
 	},
 	{
 		"code" : 1150,
-	"image":'./src/assets/bli.png'
+	"image":'/assets/bli.png'
 	},
 	{
 		"code" : 1153,
-"image":'./src/assets/bli.png'
+"image":'/assets/bli.png'
 	},
 	{
 		"code" : 1168,
-"image":'./src/assets/bli.png'
+"image":'/assets/bli.png'
 	},
 	{
 		"code" : 1171,
-"image":'./src/assets/bli.png'
+"image":'/assets/bli.png'
 	},
 	{
 		"code" : 1180,
-		"image":'./src/assets/rain1.jpg'
+		"image":'/assets/rain1.jpg'
 	},
 	{
 		"code" : 1183,
-"image":'./src/assets/rain1.jpg'
+"image":'/assets/rain1.jpg'
 	},
 	{
 		"code" : 1186,
-"image":'./src/assets/rain2.png'
+"image":'/assets/rain2.png'
 	},
 	{
 		"code" : 1189,
-"image":'./src/assets/rain2.png'
+"image":'/assets/rain2.png'
 	},
 	{
 		"code" : 1192,
-"image":'./src/assets/rain2.png'
+"image":'/assets/rain2.png'
 	},
 	{
 		"code" : 1195,
-"image":'./src/assets/rain2.png'
+"image":'/assets/rain2.png'
 	},
 	{
 		"code" : 1198,
- "image":'./src/assets/thunder.png'
+ "image":'/assets/thunder.png'
 	},
 	{
 		"code" : 1201,
- "image":'./src/assets/thunder.png'
+ "image":'/assets/thunder.png'
 	},
 	{
 		"code" : 1204,
- "image":'./src/assets/bli.png'
+ "image":'/assets/bli.png'
 	},
 	{
 		"code" : 1207,
- "image":'./src/assets/snow2.png'
+ "image":'/assets/snow2.png'
 	},
 	{
 		"code" : 1210,
- "image":'./src/assets/snow.png'
+ "image":'/assets/snow.png'
 	},
 	{
 		"code" : 1213,
- "image":'./src/assets/snow.png'
+ "image":'/assets/snow.png'
 	},
 	{
 		"code" : 1216,
- "image":'./src/assets/snow.png'
+ "image":'/assets/snow.png'
 	},
 	{
 		"code" : 1219,
- "image":'./src/assets/snow2.png'
+ "image":'/assets/snow2.png'
 	},
 	{
 		"code" : 1222,
- "image":'./src/assets/snow2.png'
+ "image":'/assets/snow2.png'
 	},
 	{
 		"code" : 1225,
- "image":'./src/assets/snow2.png'
+ "image":'/assets/snow2.png'
 	},
 	{
 		"code" : 1237,
- "image":'./src/assets/bil.jpg'
+ "image":'/assets/bil.jpg'
 	},
 	{
 		"code" : 1240,
- "image":'./src/assets/rain1.jpg'
+ "image":'/assets/rain1.jpg'
 	},
 	{
 		"code" : 1243,
- "image":'./src/assets/rain2.png'
+ "image":'/assets/rain2.png'
 	},
 	{
 		"code" : 1246,
- "image":'./src/assets/rain2.png'
+ "image":'/assets/rain2.png'
 	},
 	{
 		"code" : 1249,
- "image":'./src/assets/bli.png'
+ "image":'/assets/bli.png'
 	},
 	{
 		"code" : 1252,
- "image":'./src/assets/bli.png'
+ "image":'/assets/bli.png'
 	},
 	{
 		"code" : 1255,
- "image":'./src/assets/snow.png'
+ "image":'/assets/snow.png'
 	},
 	{
 		"code" : 1258,
- "image":'./src/assets/snow2.png'
+ "image":'/assets/snow2.png'
 	},
 	{
 		"code" : 1261,
- "image":'./src/assets/bil.png'
+ "image":'/assets/bil.png'
 	},
 	{
 		"code" : 1264,
- "image":'./src/assets/bil.png'
+ "image":'/assets/bil.png'
 	},
 	{
 		"code" : 1273,
- "image":'./src/assets/thunder.png'
+ "image":'/assets/thunder.png'
 	},
 	{
 		"code" : 1276,
- "image":'./src/assets/thunder.png'
+ "image":'/assets/thunder.png'
 	},
 	{
 		"code" : 1279,
- "image":'./src/assets/snow.png'
+ "image":'/assets/snow.png'
 	},
 	{
 		"code" : 1282,
- "image":'./src/assets/snow.png'
+ "image":'/assets/snow.png'
 	}
 
 ]
