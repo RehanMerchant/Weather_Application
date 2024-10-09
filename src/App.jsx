@@ -37,7 +37,7 @@ function App() {
    //if (res.status === 200) {
      //setCity(res.data.city);
       //setCountry(res.data.country);
-    // setLoading(false);
+    setLoading(false);
   // } else {
       setCity("Mumbai");
       setCountry("India")
