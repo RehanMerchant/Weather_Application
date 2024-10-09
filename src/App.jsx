@@ -34,14 +34,14 @@ function App() {
 
   async function getLocation() {
    // const res = await axios.get("http://ip-api.com/json");
-   if (res.status === 200) {
-     setCity(res.data.city);
-      setCountry(res.data.country);
-     setLoading(false);
-   } else {
+   //if (res.status === 200) {
+     //setCity(res.data.city);
+      //setCountry(res.data.country);
+    // setLoading(false);
+  // } else {
       setCity("Mumbai");
       setCountry("India")
-    }
+    //}
   }
   const fetchSuggestions = async (query) => {
     // Replace with your API endpoint
