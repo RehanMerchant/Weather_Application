@@ -2,4 +2,4 @@
 
 ReactJs + Tailwind css Website.
 
-Live [here](https://weather-rehan.vercel.app){:target="_blank"}.
+Live [here](https://weather-rehan.vercel.app)
